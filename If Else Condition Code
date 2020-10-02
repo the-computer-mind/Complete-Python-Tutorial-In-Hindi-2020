@@ -1,0 +1,12 @@
+s=int(input("enter a number and hit enter"))
+if s==5:
+    print("this is five")
+elif s==6:
+    print("six")
+elif s==7:
+    print("seven")
+else:
+    print("don't know")
+
+print("hii")
+#to give any comment we use # sign in python before the comment line
