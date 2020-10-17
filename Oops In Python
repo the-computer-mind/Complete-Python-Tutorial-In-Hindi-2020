@@ -1,0 +1,26 @@
+class Computer:
+    name="dell"
+
+    def __init__(self,ram,hd,pro):
+        self.ram=ram
+        self.hd=hd
+        self.pro="i5"
+        print("hii")
+
+    def feature(self):
+        print("your computer config is - " , self.ram , self.hd , self.pro)
+    @classmethod
+    def comname(cls):
+        print("company name is" , cls.name)
+
+    @staticmethod
+    def price():
+        print("the price is 45k")
+
+
+
+com1 = Computer("8gb","1tb",pro="i6")
+com2 = Computer("16gb","2tb",pro="i5")
+com1.pro="i6"
+
+com2.price()
